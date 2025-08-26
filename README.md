@@ -7,7 +7,7 @@ Easily plan trips with AI, explore interactive maps, manage your trips, and save
 
 Here’s a screenshot of the homepage:
 
-![Homepage Screenshot](./assets/homepage.png)
+![Homepage](./assets/homepage.png)
 
 🔗 Live Demo: https://www.planaitrip.site
 
