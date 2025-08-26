@@ -3,11 +3,11 @@
 import HeroVideoDialog from "@/components/magicui/hero-video-dialog"
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
-import { ArrowDown, Globe2, Landmark, Plane, Send } from "lucide-react"
 import { useUser } from '@clerk/nextjs'
-import { useRouter } from "next/navigation"   
+import { ArrowDown, Globe2, Landmark, Plane, Send } from "lucide-react"
+import { useRouter } from "next/navigation"
 
-const suggestions = [
+export const suggestions = [
     {
         title: 'Create New Trip',
         icon: <Globe2 className="text-blue-400 h-5 w-5" />
@@ -40,6 +40,7 @@ function Hero() {
             return;
         }
         // Navigate to Create Trip Planner Web Pages
+        router.push('/create-new-trip')
     }
 
     return (

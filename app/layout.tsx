@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import { ConvexClientProvider } from "./ConvexClientProvider";
 import "./globals.css";
-import Provider from "./Provider";
+import Provider from "@/app/provider";
 
 export const metadata: Metadata = {
   title: "Create Next App",
